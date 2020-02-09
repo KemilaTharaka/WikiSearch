@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DE8BFC8E37F409AE514B093 /* Pods_WikiSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC45DC95D34750F7AEC34B9 /* Pods_WikiSearch.framework */; };
+		0E98466D23F0098E000C8E8A /* wiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E98466B23F0098E000C8E8A /* wiki.png */; };
+		0E98466E23F0098E000C8E8A /* wikilogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E98466C23F0098E000C8E8A /* wikilogo.png */; };
+		0E9DE33023EFF431005AD2B8 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9DE32F23EFF431005AD2B8 /* CustomTableViewCell.swift */; };
+		0E9DE33223EFFD01005AD2B8 /* APIRequestFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9DE33123EFFD01005AD2B8 /* APIRequestFetcher.swift */; };
+		0E9DE33423F0013A005AD2B8 /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9DE33323F0013A005AD2B8 /* SearchResultsTableViewController.swift */; };
 		0EEAAA1223EFE62100D1B86C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEAAA1123EFE62100D1B86C /* AppDelegate.swift */; };
 		0EEAAA1423EFE62100D1B86C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEAAA1323EFE62100D1B86C /* ViewController.swift */; };
 		0EEAAA1723EFE62100D1B86C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEAAA1523EFE62100D1B86C /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AC45DC95D34750F7AEC34B9 /* Pods_WikiSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WikiSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E98466B23F0098E000C8E8A /* wiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wiki.png; sourceTree = "<group>"; };
+		0E98466C23F0098E000C8E8A /* wikilogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wikilogo.png; sourceTree = "<group>"; };
+		0E9DE32F23EFF431005AD2B8 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		0E9DE33123EFFD01005AD2B8 /* APIRequestFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestFetcher.swift; sourceTree = "<group>"; };
+		0E9DE33323F0013A005AD2B8 /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
 		0EEAAA0E23EFE62100D1B86C /* WikiSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEAAA1123EFE62100D1B86C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EEAAA1323EFE62100D1B86C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,8 @@
 		0EEAAA1823EFE62400D1B86C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EEAAA1B23EFE62400D1B86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EEAAA1D23EFE62400D1B86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB903DE6D9C7768A43FD164 /* Pods-WikiSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiSearch.debug.xcconfig"; path = "Target Support Files/Pods-WikiSearch/Pods-WikiSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		D18A7E461681D5FF063F7A5E /* Pods-WikiSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiSearch.release.xcconfig"; path = "Target Support Files/Pods-WikiSearch/Pods-WikiSearch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DE8BFC8E37F409AE514B093 /* Pods_WikiSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				0EEAAA1023EFE62100D1B86C /* WikiSearch */,
 				0EEAAA0F23EFE62100D1B86C /* Products */,
+				9250DFA86D9FB21B8AEF5D77 /* Pods */,
+				62569C75299D5B48F159FD83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +77,30 @@
 				0EEAAA1823EFE62400D1B86C /* Assets.xcassets */,
 				0EEAAA1A23EFE62400D1B86C /* LaunchScreen.storyboard */,
 				0EEAAA1D23EFE62400D1B86C /* Info.plist */,
+				0E98466B23F0098E000C8E8A /* wiki.png */,
+				0E98466C23F0098E000C8E8A /* wikilogo.png */,
+				0E9DE32F23EFF431005AD2B8 /* CustomTableViewCell.swift */,
+				0E9DE33123EFFD01005AD2B8 /* APIRequestFetcher.swift */,
+				0E9DE33323F0013A005AD2B8 /* SearchResultsTableViewController.swift */,
 			);
 			path = WikiSearch;
+			sourceTree = "<group>";
+		};
+		62569C75299D5B48F159FD83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AC45DC95D34750F7AEC34B9 /* Pods_WikiSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9250DFA86D9FB21B8AEF5D77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DB903DE6D9C7768A43FD164 /* Pods-WikiSearch.debug.xcconfig */,
+				D18A7E461681D5FF063F7A5E /* Pods-WikiSearch.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EEAAA2023EFE62400D1B86C /* Build configuration list for PBXNativeTarget "WikiSearch" */;
 			buildPhases = (
+				16259AAAB9C76EF0F323EB73 /* [CP] Check Pods Manifest.lock */,
 				0EEAAA0A23EFE62100D1B86C /* Sources */,
 				0EEAAA0B23EFE62100D1B86C /* Frameworks */,
 				0EEAAA0C23EFE62100D1B86C /* Resources */,
+				E9963242FED294C0A5159215 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,18 +165,65 @@
 			files = (
 				0EEAAA1C23EFE62400D1B86C /* LaunchScreen.storyboard in Resources */,
 				0EEAAA1923EFE62400D1B86C /* Assets.xcassets in Resources */,
+				0E98466E23F0098E000C8E8A /* wikilogo.png in Resources */,
 				0EEAAA1723EFE62100D1B86C /* Main.storyboard in Resources */,
+				0E98466D23F0098E000C8E8A /* wiki.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16259AAAB9C76EF0F323EB73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WikiSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9963242FED294C0A5159215 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WikiSearch/Pods-WikiSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WikiSearch/Pods-WikiSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WikiSearch/Pods-WikiSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0EEAAA0A23EFE62100D1B86C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E9DE33023EFF431005AD2B8 /* CustomTableViewCell.swift in Sources */,
 				0EEAAA1423EFE62100D1B86C /* ViewController.swift in Sources */,
+				0E9DE33423F0013A005AD2B8 /* SearchResultsTableViewController.swift in Sources */,
+				0E9DE33223EFFD01005AD2B8 /* APIRequestFetcher.swift in Sources */,
 				0EEAAA1223EFE62100D1B86C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +368,7 @@
 		};
 		0EEAAA2123EFE62400D1B86C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB903DE6D9C7768A43FD164 /* Pods-WikiSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +387,7 @@
 		};
 		0EEAAA2223EFE62400D1B86C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D18A7E461681D5FF063F7A5E /* Pods-WikiSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
